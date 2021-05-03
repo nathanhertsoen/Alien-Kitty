@@ -78,7 +78,7 @@ module.exports = class QuidCommand extends Command {
 
                     var indexFinder = ('  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ '+ '**' + (elementID + 1) + '**'+' ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 𝓣𝓪𝓫𝓵𝓮 𝓞𝓯 𝓘𝓷𝓭𝓮𝔁 ' + '\n\n' +
 
-                        'International Phon. Alpha.  :  ' + IPA  + '\n\n' +
+                        'International Phon. Alpha.  :  ' + '`' + IPA +'`'+ '\n\n' +
 
                         'Lemma : '      + lemma + '\n' +
                         'Function : '    + pos + '\n' +
