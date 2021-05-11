@@ -1,5 +1,5 @@
 # Alien-Kitty
 
-#General documentation :
+General documentation :
 
 https://www.overleaf.com/read/mhdtpgfrygsj
