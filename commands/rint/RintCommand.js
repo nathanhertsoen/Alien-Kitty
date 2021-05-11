@@ -10,7 +10,7 @@ const { Command } = require('discord.js-commando');
 // const { randomResponsesLines } = require('../../resources/quid/randomResponsesLines.js');
 
 
-module.exports = class RomanNumbersCommand extends Command {
+module.exports = class RintCommand extends Command {
     
     constructor(client) {
         super(client, {
@@ -22,7 +22,7 @@ module.exports = class RomanNumbersCommand extends Command {
             args: [
                 {
                     key: 'number',
-                    prompt: 'The french word that you need informations',
+                    prompt: 'Romanize your integer',
                     type: 'integer',
                     default: '10',
                     // validate: lemma => lemma.split(' ').length == 1,
@@ -34,9 +34,7 @@ module.exports = class RomanNumbersCommand extends Command {
 
 
     run(msg, { number}) {
-        
         if (isNaN(number)) return NaN;
-
         const initPromise = (number) => {
             return new Promise((resolve, reject) => {
 
@@ -57,7 +55,7 @@ module.exports = class RomanNumbersCommand extends Command {
                 }
             });
         }
-
+        
         function resolve(GetResult) {
             console.log("L'opération a réussi avec le message : " + GetResult);
             // msg.say({ embed: { color: 0x5CE1E6, description: "Let's copy this !\n" + num + " = " + result  } });

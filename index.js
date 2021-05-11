@@ -16,10 +16,10 @@ client.registry
     .registerGroups([
         // PRODUCTION
         ['quid', 'Searching latin word informations for user'],
-        ['def', 'pokemon ?'],
+        ['def', 'Searching english def from latin word'],
         ['rint', 'Current numbers to Roman integer'],
-        ['iss', "C'est le groupe des commandes de base"],
-        ['pokemon', 'pokemon ?'],
+        ['iss', "Find ISS in real time"],
+        ['pokemon', 'Get informations from pokemon'],
         
         
         
