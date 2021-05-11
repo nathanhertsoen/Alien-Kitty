@@ -14,6 +14,7 @@
     "discord.js-commando": "github:discordjs/Commando",
     "express-async-errors": "^3.1.1",
     "node-fetch": "^2.6.1",
-    "snekfetch": "^4.0.4"
+    "snekfetch": "^4.0.4",
+    "xmlhttprequest": "^1.8.0"
   }
 }

@@ -25,11 +25,11 @@ const morphoPossibility = {
     "n-p---fn5-": "5th declension - plurial feminine 𝐧𝐨𝐮𝐧",
 
     //MASCULINE SINGULAR 𝐧𝐨𝐮𝐧S
-    "n-s---mn1-": "1st declension - singular masculine 𝐧𝐨𝐮𝐧",
-    "n-s---mn2-": "2nd declension - singular masculine 𝐧𝐨𝐮𝐧",
-    "n-s---mn3-": "3rd declension - singular masculine 𝐧𝐨𝐮𝐧",
-    "n-s---mn4-": "4th declension - singular masculine 𝐧𝐨𝐮𝐧",
-    "n-s---mn5-": "5th declension - singular masculine 𝐧𝐨𝐮𝐧",
+    "n-s---mn1-": "𝟭st declension - singular masculine 𝐧𝐨𝐮𝐧",
+    "n-s---mn2-": "𝟮nd declension - singular masculine 𝐧𝐨𝐮𝐧",
+    "n-s---mn3-": "𝟯rd declension - singular masculine 𝐧𝐨𝐮𝐧",
+    "n-s---mn4-": "𝟰th declension - singular masculine 𝐧𝐨𝐮𝐧",
+    "n-s---mn5-": "𝟱th declension - singular masculine 𝐧𝐨𝐮𝐧",
 
     //FEMININE SINGULAR 𝐧𝐨𝐮𝐧
     "n-s---fn1-": "𝟭st declension - singular feminine 𝐧𝐨𝐮𝐧",
@@ -39,19 +39,25 @@ const morphoPossibility = {
     "n-s---fn5-": "𝟱th declension - singular feminine 𝐧𝐨𝐮𝐧",
 
     //NEUTER 𝐧𝐨𝐮𝐧
-    "n-s---nn2-": "２nd declension - neuter singular 𝐧𝐨𝐮𝐧",
-    "n-s---nn3-": "３rd declension - neuter singular 𝐧𝐨𝐮𝐧",
-    "n-s---nn4-": "4th declension - neuter singular 𝐧𝐨𝐮𝐧",
+    "n-s---nn2-": "𝟮nd declension - neuter singular 𝐧𝐨𝐮𝐧",
+    "n-s---nn3-": "𝟯rd declension - neuter singular 𝐧𝐨𝐮𝐧",
+    "n-s---nn4-": "𝟰th declension - neuter singular 𝐧𝐨𝐮𝐧",
 
     //ADJECTIVES
-    "aps---mn1-": "first class 𝐚𝐝𝐣𝐞𝐜𝐭𝐢𝐯𝐞",
-    "aps---mn2-": "second class 𝐚𝐝𝐣𝐞𝐜𝐭𝐢𝐯𝐞",
-    "aps---mn3-": "third class 𝐚𝐝𝐣𝐞𝐜𝐭𝐢𝐯𝐞",
+    "aps---mn1-": "𝟭st class 𝐚𝐝𝐣𝐞𝐜𝐭𝐢𝐯𝐞",
+    "aps---mn2-": "𝟮nd class 𝐚𝐝𝐣𝐞𝐜𝐭𝐢𝐯𝐞",
+    "aps---mn3-": "𝟯rd class 𝐚𝐝𝐣𝐞𝐜𝐭𝐢𝐯𝐞",
 
     //PLURIA TANTUM
-    "n-p---nn2-": "neuter plurial 𝐧𝐨𝐮𝐧 => _pluralia tantum_ of the second declension",
-    "n-p---nn3-": "neuter plurial 𝐧𝐨𝐮𝐧 => _pluralia tantum_ of the third declension",
-    "n-p---nn4-": "neuter plurial 𝐧𝐨𝐮𝐧 => _pluralia tantum_ of the fourth declension",
+    "n-p---nn2-": "𝟮nd declension _𝐩𝐥𝐮𝐫𝐚𝐥𝐢𝐚 𝐭𝐚𝐧𝐭𝐮𝐦_",
+    "n-p---nn3-": "𝟯rd declension _𝐩𝐥𝐮𝐫𝐚𝐥𝐢𝐚 𝐭𝐚𝐧𝐭𝐮𝐦_",
+    "n-p---nn4-": "𝟰th declension _𝐩𝐥𝐮𝐫𝐚𝐥𝐢𝐚 𝐭𝐚𝐧𝐭𝐮𝐦_",
+
+    //UNDEFINED
+    "n-s---fn3i" : "?",
+
+
+
 
     //𝐚𝐝𝐯𝐞𝐫𝐛
     "rp--------": "𝐚𝐝𝐯𝐞𝐫𝐛",
