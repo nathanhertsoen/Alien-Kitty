@@ -20,6 +20,7 @@ client.registry
         ['rint', 'Current numbers to Roman integer'],
         ['iss', "Find ISS in real time"],
         ['pokemon', 'Get informations from pokemon'],
+        ['frdef', 'French definition for words'],
         
         
         
