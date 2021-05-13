@@ -10,7 +10,7 @@ module.exports = class PokemonCommand extends Command {
             aliases: ['pokemon'],
             group: 'pokemon',
             memberName: 'pokemon',
-            description: 'Searching latin word informations for user',
+            description: 'Get information from pokemon abilities',
             throttling: {
                 usages: 3,
                 duration: 5, //seconds
@@ -18,7 +18,7 @@ module.exports = class PokemonCommand extends Command {
             args: [
                 {
                     key: 'pokemon',
-                    prompt: 'The latin word that you need informations',
+                    prompt: 'Pokemon name',
                     type: 'string',
                     default: 'rosa',
                     // validate: lemma => lemma.split(' ').length == 1,
